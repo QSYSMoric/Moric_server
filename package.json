@@ -1,0 +1,24 @@
+{
+  "name": "express8",
+  "version": "1.0.0",
+  "description": "+ 成功：1000\r + 处理中：1100\r + 处理中：1100\r + 重定向：1200\r + 客户端错误：\r     1. 参数错误：2000\r     2. 鉴权失败：2100\r     3. 请求超时：2200\r     4. 资源不存在：2300\r     5. 重复提交：2400\r     6. 非法操作：2500\r     7. 访问受限：2600\r + 服务器错误：\r     1. 服务器异常：3000\r     2. 数据库错误：3100\r     3. 缓存异常：3200\r     4. 文件上传失败：3300\r     5. 依赖服务错误：3400\r     6. 数据错误：3500\r     7. 插入失败：3600",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "connect-history-api-fallback": "^2.0.0",
+    "cookie-parser": "^1.4.6",
+    "dayjs": "^1.11.9",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "jsonwebtoken": "^9.0.0",
+    "mysql": "^2.18.1",
+    "socket.io": "^4.7.1"
+  }
+}
